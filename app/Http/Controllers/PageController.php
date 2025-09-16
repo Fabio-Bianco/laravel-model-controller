@@ -11,7 +11,7 @@ class PageController extends Controller
     {
         $movies = Movie::all();
 
-        dd($movies);  // qui l'esecuzione SI FERMA
+        
 
         return view('homepage', compact('movies'));
     }
