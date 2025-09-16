@@ -7,9 +7,26 @@
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Nunito', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f8f9fa;
 }
 
+/* Header */
+.navbar-brand { letter-spacing: .5px; }
+.nav-link { transition: color .2s ease; }
+.nav-link:hover { color: #0dcaf0 !important; }
+
+/* Cards */
+.movie-card {
+  border-radius: .75rem;
+  overflow: hidden;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.movie-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0,0,0,.12);
+}
+.card-title { font-weight: 700; font-size: 1.05rem; }
