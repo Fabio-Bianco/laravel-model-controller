@@ -16,10 +16,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="card h-100 shadow-sm movie-card">
                         {{-- Placeholder poster: potrai sostituirlo con $movie->poster quando lo aggiungerai --}}
-                        <div class="ratio ratio-2x3 bg-body-secondary d-flex align-items-center justify-content-center">
-                            <span class="text-muted small">Poster</span>
-                        </div>
-
+          
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title mb-2 text-truncate" title="{{ $movie->title }}">
                                 {{ $movie->title }}
