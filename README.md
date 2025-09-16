@@ -30,4 +30,4 @@ Le query Eloquent permettono anche di filtrare, ordinare e gestire relazioni tra
 - `app/Models/Movie.php`: rappresenta il model dei film.
 - `resources/views/`: contiene le viste Blade per la visualizzazione.
 
----
+
